@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { UserRegistrationComponent } from './components/user-registration/user-registration.component';
 import { UserSettingReactiveFromComponent } from './Components/user-setting-reactive-from/user-setting-reactive-from.component';
 
 
@@ -14,6 +15,10 @@ import { UserSettingReactiveFromComponent } from './Components/user-setting-reac
       {
         path: 'ReactiveForm',
         component: UserSettingReactiveFromComponent,
+      },
+      {
+        path: 'UserRegistration',
+        component: UserRegistrationComponent,
       },
     ]
   )],
