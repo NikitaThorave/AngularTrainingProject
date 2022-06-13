@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ViewContainerRefCompComponent } from './view-container-ref-comp.component';
+
+describe('ViewContainerRefCompComponent', () => {
+  let component: ViewContainerRefCompComponent;
+  let fixture: ComponentFixture<ViewContainerRefCompComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ ViewContainerRefCompComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(ViewContainerRefCompComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
